@@ -72,12 +72,12 @@ export const audioTools = [
 ];
 
 export const pdfTools = [
-  { icon: FileDown, label: "Dividir" },
-  { icon: FilePlus2, label: "Combinar" },
-  { icon: FileDown, label: "Compactar" },
-  { icon: Unlock, label: "Desproteger" },
-  { icon: Lock, label: "Proteger" },
-  { icon: RotateCcw, label: "Girar" },
+  { icon: FileDown, label: "Dividir", href: "/pdf/dividir" },
+  { icon: FilePlus2, label: "Combinar", href: "/pdf/combinar" },
+  { icon: FileDown, label: "Compactar", href: "/pdf/compactar" },
+  { icon: Unlock, label: "Desproteger", href: "/pdf/desproteger" },
+  { icon: Lock, label: "Proteger", href: "/pdf/proteger" },
+  { icon: RotateCcw, label: "Girar", href: "/pdf/girar" },
   { icon: Hash, label: "Adicionar Números das Páginas", badge: "BETA" },
   { icon: FileType, label: "PDF para Word" },
   { icon: Table, label: "PDF para Excel" },
@@ -85,10 +85,10 @@ export const pdfTools = [
   { icon: Image, label: "PDF para PNG" },
   { icon: Code, label: "PDF para HTML" },
   { icon: FileText, label: "Word para PDF" },
-  { icon: Image, label: "JPG para PDF" },
+  { icon: Image, label: "JPG para PDF", href: "/pdf/jpg-para-pdf" },
   { icon: Table, label: "Excel para PDF" },
   { icon: Presentation, label: "PPT para PDF" },
-  { icon: Image, label: "PNG para PDF" },
+  { icon: Image, label: "PNG para PDF", href: "/pdf/png-para-pdf" },
 ];
 
 export const converterTools = [
